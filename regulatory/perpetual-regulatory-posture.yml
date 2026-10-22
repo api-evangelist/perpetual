@@ -1,0 +1,92 @@
+generated: '2026-10-22'
+method: searched
+probe: true
+source: https://www.perpetual.com.au/privacy-policy/
+signals:
+  data_subject_request:
+    url: https://www.perpetual.com.au/privacy-policy/
+    section: '5. How you may access or correct your personal information?'
+    rights_named: [access, correction]
+    evidence:
+    - source: https://www.perpetual.com.au/privacy-policy/
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: >-
+        You may contact us to request access to the personal information we hold about you at any time. You
+        may also ask us to correct information about you that you may believe is inaccurate, incomplete or out
+        of date.
+    - source: https://www.perpetual.com.au/privacy-policy/
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: >-
+        In certain circumstances, Perpetual may not be able to correct or provide you with access to your
+        information.
+    note: >-
+      Access and correction rights (the Australian Privacy Principles set) with identity verification and the
+      Privacy Officer as the channel. No deletion or portability right and no response time are stated.
+  data_retention:
+    url: https://www.perpetual.com.au/privacy-policy/
+    section: '2. How does Perpetual collect and store personal information?'
+    evidence:
+    - source: https://www.perpetual.com.au/privacy-policy/
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: >-
+        We retain personal information for as long as it is required to meet our business or legal
+        requirements. When we longer require personal information, we take reasonable steps to destruct or
+        de-identify it.
+    note: >-
+      A purpose-bound retention statement with destruction or de-identification at end of need; no fixed
+      retention periods are published. (Quote reproduces the provider's own typo "When we longer".)
+  ai_transparency:
+    url: https://www.perpetual.com.au/privacy-policy/
+    section: '3. How does Perpetual use your personal information?'
+    evidence:
+    - source: https://www.perpetual.com.au/privacy-policy/
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: >-
+        Perpetual may use technology enabled tools, including artificial intelligence and automated systems, to
+        support internal business operations such as information management, research, data analysis, client
+        service support and risk management. Perpetual does not permit the use of personal information in
+        public or open access artificial intelligence models.
+    note: >-
+      Discloses internal use of AI and automated systems on personal information, and a restriction against
+      putting personal information into public/open-access AI models. No model names or decision-making
+      details are given.
+  data_residency:
+    url: https://www.perpetual.com.au/privacy-policy/
+    section: '4. How is personal information disclosed to others?'
+    evidence:
+    - source: https://www.perpetual.com.au/privacy-policy/
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: >-
+        In some circumstances, personal information may be disclosed to Perpetual related entities and third
+        parties in jurisdictions including, but not limited to, Australia, New Zealand, Singapore, United
+        Kingdom, the EU (Ireland, Bulgaria, the Netherlands), the United States of America, India, Japan,
+        Canada and The Phillippines.
+    note: >-
+      A cross-border disclosure statement naming destination jurisdictions (non-exhaustive). It is not a
+      residency commitment: data may leave Australia.
+  subprocessors:
+    url: https://www.perpetual.com.au/privacy-policy/
+    section: '4. How is personal information disclosed to others?'
+    evidence:
+    - source: https://www.perpetual.com.au/privacy-policy/
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: >-
+        Where we disclose your information to our service providers, whether in Australia or overseas, we will
+        take steps to ensure that they are authorised to only use personal information in order to perform the
+        functions required by Perpetual and that they handle personal information with appropriate privacy and
+        data security arrangements.
+    - source: https://www.perpetual.com.au/privacy-policy/
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: >-
+        Perpetual also requires its vendors who handle personal information to implement and maintain security
+        measures that are consistent with our own standards of protection.
+    note: >-
+      Service providers are described by category (e.g. information technology service providers) with
+      use-limitation and security obligations; no named subprocessor list is published.

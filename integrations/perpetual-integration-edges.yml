@@ -1,0 +1,16 @@
+generated: '2026-10-22'
+method: none
+source:
+- https://zapier.com/apps/perpetual/integrations
+- https://n8n.io/integrations/perpetual/
+- https://composio.dev/toolkits/perpetual
+- https://monid.ai/tools/perpetual
+checked:
+- https://composio.dev/toolkits/perpetual
+- https://monid.ai/tools/perpetual
+- https://n8n.io/integrations/perpetual/
+- https://zapier.com/apps/perpetual/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []

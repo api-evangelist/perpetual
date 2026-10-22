@@ -1,0 +1,9 @@
+generated: '2026-10-22'
+method: none
+name: Perpetual packages
+note: No first-party SDK, client library or CLI is published. perpetual.com.au links no developer portal, API docs or GitHub org, and web searches for a Perpetual / Perpetual Intelligence API, SDK or developer portal returned none. Registry names "perpetual" exist on npm (banterability/perpetual, day/month names utility, HTTP 200) and PyPI (gradient boosting library from perpetual-ml.com, HTTP 200); both are unrelated to Perpetual Limited and are not recorded.
+checked:
+- https://registry.npmjs.org/perpetual
+- https://pypi.org/pypi/perpetual/json
+- https://www.perpetual.com.au/corporate-trust/perpetual-intelligence/
+packages: []

@@ -1,23 +1,89 @@
 aid: perpetual
+
 name: Perpetual
-description: 'Perpetual is a company surfaced via the API Evangelist harvest backlog (source: australia-apidays-2026)
-  and added to the network as a stub for full-pipeline profiling.'
+
+description: Perpetual Limited is an Australian diversified financial services group operating across Wealth Management (private wealth advice, trustee, estate and philanthropy services), Asset Management (Australian and global shares, credit and fixed income, multi-asset, Barrow Hanley Global Investors) and Corporate Trust services. Surfaced via the API Evangelist harvest backlog (australia-apidays-2026).
+
 url: https://raw.githubusercontent.com/api-evangelist/perpetual/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:australia-apidays-2026
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-22 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-22'
+
 modified: '2026-10-22'
+
 tags:
 - Company
-apis: []
+- Financial Services
+- Asset Management
+- Wealth Management
+- Corporate Trust
+- Trustee Services
+- Australia
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
+image: https://www.perpetual.com.au/49186f/globalassets/_au-site-media/02-images/05-logos/asset-management/logos/perpetual_logo_positive_dark_blue_rgb.svg
+
 common:
+- type: Hosts
+  url: hosts/perpetual-hosts.yml
+- type: Vendors
+  url: vendors/perpetual-vendors.yml
+- type: DomainSecurity
+  url: security/perpetual-domain-security.yml
 - type: Website
-  url: https://perpetual.com.au/
+  url: https://www.perpetual.com.au/
+- type: Blog
+  url: https://www.perpetual.com.au/insights/
+- type: Support
+  url: https://www.perpetual.com.au/about/contact-us/
+- type: Login
+  url: https://www.perpetual.com.au/login/
+- type: TermsOfService
+  url: https://www.perpetual.com.au/privacy-policy/terms-and-conditions/
+- type: PrivacyPolicy
+  url: https://www.perpetual.com.au/privacy-policy/
+- type: Security
+  url: https://www.perpetual.com.au/privacy-policy/security/
+- type: Leadership
+  url: https://www.perpetual.com.au/about/team/
+- type: Careers
+  url: https://www.perpetual.com.au/about/careers-at-perpetual/
+- type: FundPerformance
+  url: https://www.perpetual.com.au/pricing-and-performance/
+- type: LinkedIn
+  url: https://au.linkedin.com/company/perpetual-limited
+
+apis: []
+
+x-coverage:
+  state: covered
+  reason: identity-verified
+  detail: 'Website verified: www.perpetual.com.au serves page titled "Perpetual Limited". No developer portal, API docs or GitHub org linked from the site. "pricing-and-performance" is fund unit pricing, not product pricing, so it is typed FundPerformance.'
+  evidence:
+  - url: https://perpetual.com.au/
+    status: 200
+  - url: https://www.perpetual.com.au/
+    status: 200
+  - url: https://www.perpetual.com.au/insights/
+    status: 200
+  - url: https://www.perpetual.com.au/about/contact-us/
+    status: 200
+x-enrichment:
+  date: '2026-10-22'
+  status: enriched
+  artifacts_added: 11
+  pass: modular-v1
+  engine: identity=anthropic,contract=anthropic,surfaces=anthropic,docs=anthropic,regulatory=anthropic

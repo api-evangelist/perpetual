@@ -1,0 +1,6 @@
+generated: '2026-10-22'
+method: none
+name: Perpetual rate limits
+limit_count: 0
+note: No public API or API documentation was found for Perpetual Limited (no docs host, no OpenAPI, no developer portal), so no rate limits are published.
+limits: []

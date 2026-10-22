@@ -1,0 +1,22 @@
+name: Perpetual MCP Server
+type: MCPServer
+generated: '2026-10-22'
+method: none
+status: absent
+description: >-
+  No official hosted or local MCP server is published by Perpetual Limited. A web search
+  for a Perpetual MCP server or developer API found nothing (only unrelated MCP directory
+  listings), the pre-flight probes of perpetual.com.au and www.perpetual.com.au found no MCP,
+  OpenAPI, AsyncAPI or GraphQL surface, and no OpenAPI exists in this repo to derive a
+  candidate tool list from.
+deployment:
+  mode: none
+  auth: unknown
+  verified: searched
+evidence:
+- url: https://www.perpetual.com.au/llms.txt
+  status: 404
+  note: no llms.txt / agent index on the corporate site
+- query: Perpetual Limited Australia API developer OR "MCP server"
+  result: no Perpetual-owned MCP server or API found
+tools: []

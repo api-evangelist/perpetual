@@ -1,0 +1,9 @@
+generated: '2026-10-22'
+method: none
+name: Perpetual pricing
+audience: unclear
+pricing_basis: none
+published: false
+plan_count: 0
+note: Perpetual publishes no API or developer plans. https://www.perpetual.com.au/pricing-and-performance/ (HTTP 200 per pre-flight) is fund unit pricing and performance for its managed funds, a consumer/investor fee and price schedule, not API pricing, so no tiers are recorded.
+plans: []
